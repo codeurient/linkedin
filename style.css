@@ -202,7 +202,7 @@ a{
     margin-right: 10px;
 }
 .discover-more-link{
-    border: 1px solid #ccc;
+    border-top: 1px solid #ccc;
     text-align: center;
     margin-top: 20px;
     margin-left: -25px;
