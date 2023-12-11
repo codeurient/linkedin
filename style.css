@@ -50,7 +50,7 @@ a{
     height: 2px;
     background: #045be6;
     position: absolute;
-    bottom: -15px;
+    bottom: -13px;
     transition: width 0.3s;
 }
 .navbar-center ul li a:hover::after,
@@ -524,4 +524,27 @@ a{
     width: 35px;
     border-radius: 50%;
     margin-right: 15px;
+}
+
+/* profile-page */
+
+.profile-menu{
+    flex-basis: 73%;
+}
+.profile-sidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 73%;
+}
+.profile-container{
+    background: #fff;
+}
+.profile-container-inner{
+    padding: 0 4% 10px;
+}
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -75px;
 }
